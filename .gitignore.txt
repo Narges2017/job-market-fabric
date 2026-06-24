@@ -1,0 +1,19 @@
+```gitignore
+# Temporary files
+*.log
+*.tmp
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.parquet
+*.csv
+*.jsonl
+Files/**
+
+# Fabric
+.lakehouse/
+.vscode/
